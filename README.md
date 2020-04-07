@@ -1,1 +1,1 @@
-This repo is for learning the basics of python
+This repository  is for learning the basics of python
