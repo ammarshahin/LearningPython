@@ -2,20 +2,18 @@
 # ************* Functions **************
 
 # Note: Any function has an indent(Tab before any line of code inside it)
-# Ex: 
-# def funcName():
-#   inside       
-#   inside       
-#   inside       
-#   inside       
-# outside 
-       
+# Ex:
 # create a function
-def say_hi():
-    print("inside")
-    print("inside")
-    print("inside")
-    print("inside")
-print("outside")
+# def say_hi():
+#     print("inside")
+#     print("inside")
+#     print("inside")
+#     print("inside")
+# print("outside")
 
-say_hi()
+
+def say_hi(name):
+    print("hello " + name)
+
+
+say_hi("ammar")
