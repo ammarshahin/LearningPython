@@ -44,10 +44,14 @@ friends.remove("C")
 friends.remove("D")
 print(friends)
 
-
 # get the last element of the list and remove it
 temp = friends.pop()
+print(temp)
 print(friends)
+
+# get the index of the element in the list
+temp = friends.index("Ahmed")
+print("Ahmed is at : " + temp)
 
 # clear the entire elements from the main list
 friends.clear()
