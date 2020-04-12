@@ -26,7 +26,7 @@ elif operation == "^":
 elif operation == "!":
     result = factorial(operand1)
 else:
-    result = none
+    result = False
     pass
 
 print("result =", result)
