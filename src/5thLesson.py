@@ -51,7 +51,7 @@ print(friends)
 
 # get the index of the element in the list
 temp = friends.index("Ahmed")
-print("Ahmed is at : " + temp)
+print("Ahmed is at : " + str(temp))
 
 # clear the entire elements from the main list
 friends.clear()
