@@ -1,4 +1,4 @@
-# ************* mad Libs Program **************
+# ************* madLibs Program **************
 
 color = input("Enter a color: ")
 plural_noun = input("Enter a plural noun: ")
