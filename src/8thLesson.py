@@ -1,7 +1,7 @@
 # ************* Lesson 8 **************
 # ************* If statement **************
 
-is_male = True
+is_male = False
 is_tall = True
 
 if is_male or is_tall:
