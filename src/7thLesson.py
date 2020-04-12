@@ -20,6 +20,16 @@ say_hi("ammar", "25")
 say_hi("Mike", "20")
 '''
 
+# Note: Any function that doesn't have a return statement >> returns "none" as defult
+# Ex:
+
+
+def cube(num):
+    num*num*num
+
+
+print(cube(3))
+
 
 def cube(num):
     return num*num*num
