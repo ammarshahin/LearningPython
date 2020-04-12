@@ -27,23 +27,28 @@ print(charArr[:2])
 
 # Append whole list at the end of the main one
 friends.extend(charArr)
+print(friends)
 
 # Append element at the end of the main list
 friends.append("Mohammed")
+print(friends)
 
 # Insert element at any location in the main list
 friends.insert(2, "Mahmoud")
+print(friends)
 
 # remove element from the main list
 friends.remove("A")
 friends.remove("B")
 friends.remove("C")
 friends.remove("D")
+print(friends)
 
-# get the first element of the list and remove it
+
+# get the last element of the list and remove it
 temp = friends.pop()
+print(friends)
 
 # clear the entire elements from the main list
-#friends.clear()
-
+friends.clear()
 print(friends)
