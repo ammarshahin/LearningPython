@@ -3,5 +3,5 @@
 
 # get the input from the user and store it in the variable name 
 # Note: the promote will be printed to guide the user
-name  = input("Enter your name : ")
+name  = input()
 print("Hello " + name) 
