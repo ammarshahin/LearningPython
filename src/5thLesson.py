@@ -58,11 +58,15 @@ friends.append("Mohammed")
 friends.append("Mohammed")
 friends.append("Mohammed")
 print(friends)
+
 print("Mohammed has been repeated " + str(friends.count("Mohammed")) + " times")
 
 friends.remove("Mohammed")
 friends.remove("Mohammed")
-friends.remove("Mohammed")
+print(friends)
+
+# sort the entire elements in the list
+friends.sort()
 print(friends)
 
 # clear the entire elements from the main list
