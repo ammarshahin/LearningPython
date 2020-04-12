@@ -6,7 +6,7 @@
 
 ######### change The Files Name here ########
 _DEPS =                          # 
-_EXC  = 5thLesson.py                  # The Excutable File name 
+_EXC  = 6thLesson.py                  # The Excutable File name 
 #################################################################################
  
 PYC = py
