@@ -1,5 +1,9 @@
 # ************* Basic Calculator Program **************
 
+#******************* factorial function ****************
+def factorial(num):
+    return num
+
 # convert the string entered from the user from string to float value
 operand1 = float(input("Enter the first operand: "))
 operation = input("Enter the operation needed ex(+,-,*,/): ")
@@ -20,7 +24,7 @@ elif operation == "^":
     operand2 = float(input("Enter the second operand: "))
     result = pow(operand1, operand2)
 elif operation == "!":
-    result = operand1
+    result = factorial(operand1)
 else:
     pass
 
