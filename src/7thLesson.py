@@ -17,3 +17,4 @@ def say_hi(name):
 
 
 say_hi("ammar")
+say_hi("Mike")
