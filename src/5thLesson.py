@@ -40,7 +40,10 @@ friends.remove("B")
 friends.remove("C")
 friends.remove("D")
 
+# get the first element of the list and remove it
+temp = friends.pop()
+
 # clear the entire elements from the main list
-friends.clear()
+#friends.clear()
 
 print(friends)
