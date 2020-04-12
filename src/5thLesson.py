@@ -69,6 +69,10 @@ print(friends)
 friends.sort()
 print(friends)
 
+numbers = [2, 4, 8, 2, 6, 0, 21, 1]
+numbers.sort()
+print(numbers)
+
 # clear the entire elements from the main list
 friends.clear()
 print(friends)
