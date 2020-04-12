@@ -10,4 +10,9 @@ print(10 % 3)
 my_num = 5
 print(my_num)
 print(str(my_num))  # convert the variable to string
-print("My number = " + my_num)
+print("My number = " + str(my_num))
+
+#************ Math functions *********************#
+print(abs(my_num))
+my_num = -5
+print(abs(my_num))
