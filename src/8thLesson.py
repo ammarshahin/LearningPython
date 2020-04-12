@@ -1,11 +1,14 @@
 # ************* Lesson 8 **************
 # ************* If statement **************
 
-isMale = True
+is_male = True
+is_tall = True
 
-if isMale == True:
-    print("is male!!!!")
-else if isMale == False:
+if isMale or is_tall:
+    print("you are male or tall or both")
+elif isMale and is_tall:
+    print("you are male and tall")
+else if not isMale:
     print("Not a male!!!!")
 else:
     pass # 'pass' is the keyword for continue (basically don't do anything) {it's a MUST in python!!!!}
