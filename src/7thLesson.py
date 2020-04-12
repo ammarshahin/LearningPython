@@ -12,9 +12,9 @@
 # print("outside")
 
 
-def say_hi(name, age):
-    print("hello " + name + " you are " + age)
-
-
 say_hi("ammar", "25")
 say_hi("Mike", "20")
+
+
+def say_hi(name, age):
+    print("hello " + name + " you are " + age)
