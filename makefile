@@ -14,7 +14,6 @@ PYFLAGS = -u
 SDIR = .\src
 
 #******************************* Rules *******************************
-#all: git clean printStartMsg app run
 
 all: git printStartMsg app
 
@@ -28,13 +27,3 @@ git:                      # This rule is to automate aquick save to the VCS git
 	@echo -------------Quick Saving...-------------
 	git add .
 	git commit -a -m "Quick Save" 
-
-run:
-	@echo -------------running...-------------
-	@$(_EXC)
-
-.PHONY: clean
-
-clean:
-	@echo -------------Cleaning...-------------
-	del *.exe $(ODIR).\*.o
