@@ -15,5 +15,5 @@ print(friends[-3])  # karen as well (BackEnd Indexing)
 print(charArr[1:3])
 # the elements from 1 to the end {up to the end and including the last element} >> ["B" , "C" , "D"]
 print(charArr[1:])
-# the elements from the start to the element index 2 {up to 3 but not including the 3rd element} >> ["A" , "B"]
+# the elements from the start to the element index 2 {up to 2 but not including the 2 element} >> ["A" , "B"]
 print(charArr[:2])
