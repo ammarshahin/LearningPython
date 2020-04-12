@@ -22,7 +22,7 @@ printStartMsg:
 	@echo -------------Building...-------------
 
 app:
-	$(PYC) $(CXXFLAGS) $(SDIR).\*.py
+	$(PYC) $(CXXFLAGS) $(SDIR)\*.py
 
 git:                      # This rule is to automate aquick save to the VCS git 
 	@echo -------------Quick Saving...-------------
