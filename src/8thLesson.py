@@ -3,8 +3,10 @@
 
 isMale = True
 
-if isMale:
+if isMale == True:
     print("is male!!!!")
+else if isMale == False:
+    print("Not a male!!!!")
 else:
     pass # 'pass' is the keyword for continue (basically don't do anything) {it's a MUST in python!!!!}
     
