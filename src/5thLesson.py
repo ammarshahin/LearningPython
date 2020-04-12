@@ -59,7 +59,8 @@ friends.append("Mohammed")
 friends.append("Mohammed")
 print(friends)
 print("Mohammed has been repeated " + str(friends.count("Mohammed")) + " times")
-
+friends.remove("Mohammed")
+print(friends)
 
 # clear the entire elements from the main list
 friends.clear()
