@@ -4,4 +4,4 @@
 friends = ["Kev", "Karen", "Ahmed", "Jim"]  # array of strings
 boolArr = [True, False, False, True]  # array of boolens
 
-print(friends)
+print(friends[1]) # print karen
