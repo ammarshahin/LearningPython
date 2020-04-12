@@ -15,4 +15,5 @@ print("My number = " + str(my_num))
 #************ Math functions *********************#
 print(abs(my_num))
 my_num = -5
+print(my_num)
 print(abs(my_num))
