@@ -24,6 +24,15 @@ print(charArr[:2])
 
 
 # ******************** list functions *****************************
-friends.extend(charArr) # Append another whole list at the end of the main one
-friends.append(charArr[0])    # Append another element at the end of the main one
+
+# Append another whole list at the end of the main one
+friends.extend(charArr)
+
+# Append another element at the end of the main list
+friends.append("Mohammed")
+
+# Insert another element at any location in the main list
+friends.insert(2, "Mahmoud")
+
+
 print(friends)
