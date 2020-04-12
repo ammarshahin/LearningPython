@@ -7,17 +7,17 @@ operation = input("Enter the operation needed: ")
 if operation == "+":
     operand2 = float(input("Enter the second operand: "))
     result = operand1 + operand2
-else if operation == "-":
+elif operation == "-":
     operand2 = float(input("Enter the second operand: "))
     result = operand1 - operand2
-else if operation == "*":
+elif operation == "*":
     operand2 = float(input("Enter the second operand: "))
     result = operand1 * operand2
-else if operation == "/":
+elif operation == "/":
     operand2 = float(input("Enter the second operand: "))
     result = operand1 / operand2
-else if operation == "^":
+elif operation == "^":
     operand2 = float(input("Enter the second operand: "))
-    result = operand1 ^ operand2
+    result = pow(operand1, operand2)
 else if operation == "!":
     result = operand1
