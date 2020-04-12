@@ -19,5 +19,7 @@ elif operation == "/":
 elif operation == "^":
     operand2 = float(input("Enter the second operand: "))
     result = pow(operand1, operand2)
-else if operation == "!":
+elif operation == "!":
     result = operand1
+
+print("result = ", result)
