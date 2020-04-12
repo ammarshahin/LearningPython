@@ -13,12 +13,13 @@ print(str(my_num))  # convert the variable to string
 print("My number = " + str(my_num))
 
 #************ Math functions *********************#
-my_num1 = -5.8489
+my_num1 = -5
 my_num2 = 2
-print(abs(my_num))
-print(pow(my_num, my_num2))
-print(min(my_num, my_num2))
-print(max(my_num, my_num2))
-print(round(my_num))
+my_num3 = 7.879
+print(abs(my_num1))
+print(pow(my_num1, my_num2))
+print(min(my_num1, my_num2))
+print(max(my_num1, my_num2))
+print(round(my_num3))
 
 
