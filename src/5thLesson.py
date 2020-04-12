@@ -53,6 +53,14 @@ print(friends)
 temp = friends.index("Ahmed")
 print("Ahmed is at : " + str(temp))
 
+# get the count of a specific element in the list
+friends.append("Mohammed")
+friends.append("Mohammed")
+friends.append("Mohammed")
+print(friends)
+print(friends.count(""Mohammed""))
+
+
 # clear the entire elements from the main list
 friends.clear()
 print(friends)
