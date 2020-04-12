@@ -65,13 +65,17 @@ friends.remove("Mohammed")
 friends.remove("Mohammed")
 print(friends)
 
-# sort the entire elements in the list
+# sort the entire elements in the list in accending order
 friends.sort()
 print(friends)
 
 numbers = [2, 4, 8, 2, 6, 0, 21, 1]
 print(numbers)
 numbers.sort()
+print(numbers)
+
+# reverse a list
+numbers.reverse()
 print(numbers)
 
 # clear the entire elements from the main list
