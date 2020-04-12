@@ -69,6 +69,7 @@ print(friends)
 friends.sort()
 print(friends)
 
+numbers.sort()
 numbers = [2, 4, 8, 2, 6, 0, 21, 1]
 numbers.sort()
 print(numbers)
