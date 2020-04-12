@@ -6,7 +6,7 @@
 
 ######### change The Files Name here ########
 _DEPS =                          # 
-_EXC  = app.exe                  # The Excutable File name 
+_EXC  = 1stLesson.py                  # The Excutable File name 
 #################################################################################
  
 PYC = py
@@ -22,7 +22,7 @@ printStartMsg:
 	@echo -------------Building...-------------
 
 app:
-	$(PYC) $(CXXFLAGS) $(SDIR)\*.py
+	$(PYC) $(CXXFLAGS) $(SDIR).\$(_EXC)
 
 git:                      # This rule is to automate aquick save to the VCS git 
 	@echo -------------Quick Saving...-------------
