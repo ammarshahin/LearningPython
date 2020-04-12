@@ -9,7 +9,7 @@ def factorial(num):
 
 # convert the string entered from the user from string to float value
 operand1 = float(input("Enter the first operand: "))
-operation = input("Enter the operation needed ex(+,-,*,/): ")
+operation = input("Enter the operation needed ex(+,-,*,/,^,!): ")
 
 if operation == "+":
     operand2 = float(input("Enter the second operand: "))
