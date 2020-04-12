@@ -2,7 +2,7 @@
 
 # convert the string entered from the user from string to float value
 operand1 = float(input("Enter the first operand: "))
-operation = input("Enter the operation needed: ")
+operation = input("Enter the operation needed ex(+,-,*,/): ")
 
 if operation == "+":
     operand2 = float(input("Enter the second operand: "))
@@ -21,5 +21,7 @@ elif operation == "^":
     result = pow(operand1, operand2)
 elif operation == "!":
     result = operand1
+else:
+    pass
 
 print("result = ", result)
