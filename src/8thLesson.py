@@ -2,6 +2,16 @@
 # ************* If statement **************
 
 is_male = False
+
+if is_male:
+    print("you are male")
+elif not is_male:
+    print("you aren't a male")
+else:
+    pass # 'pass' is the keyword for continue (basically don't do anything) {it's a MUST in python!!!!}
+    
+
+'''
 is_tall = True
 
 if is_male or is_tall:
