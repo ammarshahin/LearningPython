@@ -5,11 +5,13 @@
 # BackEnd Indexing:
 #           -4   |  -3   |   -2   |   -1
 friends = ["Kev", "Karen", "Ahmed", "Jim"]  # array of strings
-boolArr = [True, False, False, True]  # array of boolens
-charArr = ["A", "B", "C", "D"]
-
 print(friends[1])   # karen
 print(friends[-3])  # karen as well (BackEnd Indexing)
+
+friends[1] = "Mike" # change the value of the list elements
+print(friends[1])   # Mike
+
+charArr = ["A", "B", "C", "D"]
 
 # the elements from 1 to 2 {up to 3 but not including the 3rd element} >> ["B" , "C"]
 print(charArr[1:3])
