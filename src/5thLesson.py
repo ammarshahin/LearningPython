@@ -78,6 +78,13 @@ print(numbers)
 numbers.reverse()
 print(numbers)
 
+# copy a list into another list
+list2 = numbers.copy()
+print(list2)
+
+
 # clear the entire elements from the main list
 friends.clear()
+numbers.clear()
 print(friends)
+print(numbers)
