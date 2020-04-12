@@ -24,4 +24,4 @@ elif operation == "!":
 else:
     pass
 
-print("result = ", result)
+print("result =", result)
