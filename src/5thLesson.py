@@ -58,7 +58,7 @@ friends.append("Mohammed")
 friends.append("Mohammed")
 friends.append("Mohammed")
 print(friends)
-print(friends.count("Mohammed))
+print(friends.count("Mohammed")
 
 
 # clear the entire elements from the main list
