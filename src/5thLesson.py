@@ -25,14 +25,19 @@ print(charArr[:2])
 
 # ******************** list functions *****************************
 
-# Append another whole list at the end of the main one
+# Append whole list at the end of the main one
 friends.extend(charArr)
 
-# Append another element at the end of the main list
+# Append element at the end of the main list
 friends.append("Mohammed")
 
-# Insert another element at any location in the main list
+# Insert element at any location in the main list
 friends.insert(2, "Mahmoud")
 
+# remove element from the main list
+friends.remove("A")
+friends.remove("B")
+friends.remove("C")
+friends.remove("D")
 
 print(friends)
