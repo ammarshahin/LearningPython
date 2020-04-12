@@ -1,8 +1,11 @@
 # ************* Basic Calculator Program **************
 
-#******************* factorial function ****************
+# ******************* factorial function ****************
+
+
 def factorial(num):
     return num
+
 
 # convert the string entered from the user from string to float value
 operand1 = float(input("Enter the first operand: "))
@@ -29,4 +32,7 @@ else:
     result = False
     pass
 
-print("result =", result)
+if result == False:
+    print("invalid Input")
+else:
+    print("result =", result)
