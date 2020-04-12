@@ -17,3 +17,5 @@ def say_hi():
     print("inside")
     print("inside")
 print("outside")
+
+say_hi()
