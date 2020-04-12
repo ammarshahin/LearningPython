@@ -6,7 +6,7 @@
 
 ######### change The Files Name here ########
 _DEPS =                          # 
-_EXC  = BasicCalculator.py                  # The Excutable File name 
+_EXC  = making_mad_lib.py                  # The Excutable File name 
 #################################################################################
  
 PYC = py
