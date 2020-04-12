@@ -13,6 +13,7 @@ else:
 
 '''
 
+'''
 is_male = False
 is_tall = True
 
@@ -24,4 +25,19 @@ elif not(is_male) or is_tall:
     print("you are tall but not male")
 else:
     print("you are nither male or tall")
-    
+'''
+
+
+def max_num(num1, num2, num3):
+    result = num1
+    if (num2 >= num1) and (num2 >= num3):
+        result = num2
+    elif (num3 >= num1) and (num3 >= num2):
+        result = num3
+    else:
+        pass
+    return result
+
+
+is_max = max_num(2, 6, 0)
+print(is_max)
