@@ -26,6 +26,7 @@ elif not(is_male) or is_tall:
 else:
     print("you are nither male or tall")
 '''
+# Conditional operators >> [== , <= , >= , != , or , not , and]
 
 
 def max_num(num1, num2, num3):
