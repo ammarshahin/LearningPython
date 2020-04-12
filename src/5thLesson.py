@@ -24,5 +24,5 @@ print(charArr[:2])
 
 
 # ******************** list functions *****************************
-friends.extend("ammar")
+friends.extend(charArr)
 print(friends)
