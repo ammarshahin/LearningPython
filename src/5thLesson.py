@@ -82,7 +82,6 @@ print(numbers)
 list2 = numbers.copy()
 print(list2)
 
-
 # clear the entire elements from the main list
 friends.clear()
 numbers.clear()
