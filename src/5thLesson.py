@@ -8,9 +8,11 @@ friends = ["Kev", "Karen", "Ahmed", "Jim"]  # array of strings
 print(friends[1])   # karen
 print(friends[-3])  # karen as well (BackEnd Indexing)
 
-friends[1] = "Mike" # change the value of the list elements
+friends[1] = "Mike"  # change the value of the list elements
 print(friends[1])   # Mike
 
+
+# ******************** list ranges *****************************
 charArr = ["A", "B", "C", "D"]
 
 # the elements from 1 to 2 {up to 3 but not including the 3rd element} >> ["B" , "C"]
@@ -19,3 +21,8 @@ print(charArr[1:3])
 print(charArr[1:])
 # the elements from the start to the element index 2 {up to 2 but not including the 2 element} >> ["A" , "B"]
 print(charArr[:2])
+
+
+# ******************** list functions *****************************
+friends.extend("ammar")
+print(friends)
