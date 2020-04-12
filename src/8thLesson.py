@@ -4,7 +4,7 @@
 is_male = True
 is_tall = True
 
-if isMale or is_tall:
+if is_male or is_tall:
     print("you are male or tall or both")
 elif is_male and is_tall:
     print("you are male and tall")
