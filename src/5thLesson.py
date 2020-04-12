@@ -40,4 +40,7 @@ friends.remove("B")
 friends.remove("C")
 friends.remove("D")
 
+# clear the entire elements from the main list
+friends.clear()
+
 print(friends)
