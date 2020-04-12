@@ -1,6 +1,9 @@
 # ************* Lesson 3 **************
 # ************* Working With Numbers **************
 
+# import the math library
+from math import *
+
 print(2)
 print(2.544213)
 print(-2.544213)
@@ -21,5 +24,5 @@ print(pow(my_num1, my_num2))
 print(min(my_num1, my_num2))
 print(max(my_num1, my_num2))
 print(round(my_num3))
-
-
+print(floor(my_num3))
+print(ceil(my_num3))
