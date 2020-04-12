@@ -5,4 +5,3 @@ print(phrase.upper() + "\n")
 print(phrase.isupper() + "\n")
 print(phrase.upper.isupper() + "\n")
 print(phrase[0] + "\n")
-
