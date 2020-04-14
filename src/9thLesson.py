@@ -18,6 +18,6 @@ monthConvertions = {
 
 print(monthConvertions["Jan"])
 
-
-print(monthConvertions.get["Feb"]) # get is useful as it makes a defult value to the dictionary
-print(monthConvertions.get["luv"]) # get is useful as it makes a defult value to the dictionary
+# get is useful as it makes a defult value to the dictionary
+print(monthConvertions.get["Feb"]) 
+print(monthConvertions.get["luv"])
