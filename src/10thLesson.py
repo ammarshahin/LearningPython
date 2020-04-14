@@ -42,6 +42,6 @@ for friend in friends:
     print("We Love you", friend)
 '''
 
-# this loop will loop throug a range of numbers
-for num in range(1:10):
+# this loop will loop through a range of numbers
+for num in range(1,10):
     print(num)
