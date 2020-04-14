@@ -7,7 +7,9 @@
 # Note : No duplicate keys are allowed(unique)
 
 ##### ex: A program that converts Jan >> January , Feb >> February , etc #####
-# Dictionary Name = {List of keys and the associated values}
+# Dictionary Name = {
+# List of keys: the associated values
+# }
 monthConvertions = {
     "Jan": "January",      # Jan is the Key >> January is the value
     "Feb": "February",
@@ -15,4 +17,7 @@ monthConvertions = {
 }
 
 print(monthConvertions["Jan"])
-print(monthConvertions["Feb"])
+
+
+print(monthConvertions.get["Feb"]) # get is useful as it makes a defult value to the dictionary
+print(monthConvertions.get["luv"]) # get is useful as it makes a defult value to the dictionary
