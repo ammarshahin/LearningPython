@@ -39,4 +39,4 @@ for every_element in num_array:
 # this loop is looping through the Array
 friends = ["Chandler", "Rachel", "Monica", "Ross", "Phebe", "Joy"]
 for friend in friends:
-    print("We Love you ", friend)
+    print("We Love you", friend)
