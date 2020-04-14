@@ -18,6 +18,7 @@ monthConvertions = {
 
 print(monthConvertions["Jan"])
 
-# get is useful as it makes a defult value to the dictionary
+# get is useful as it makes a defult value to the dictionary insted of error
 print(monthConvertions.get("Feb")) 
-print(monthConvertions.get("luv"))
+print(monthConvertions.get("luv")) # luv is not a valid key so it will return an none as defult
+print(monthConvertions.get("luv" , "Not a valid key")) # here we sat "Not a valid key" to be the defult
