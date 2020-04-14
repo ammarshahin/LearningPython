@@ -1,4 +1,4 @@
-# ************* Lesson 8 **************
+# ************* Lesson 9 **************
 # ************* Dictionaries **************
 
 # Dictionaries is a data structure in python that store information in key value pairs
@@ -15,10 +15,11 @@ monthConvertions = {
     "Feb": "February",
     "Mar": "March",
 }
-
 print(monthConvertions["Jan"])
 
-# get is useful as it makes a defult value to the dictionary insted of error
-print(monthConvertions.get("Feb", "Not a valid key")) 
-print(monthConvertions.get("luv")) # luv is not a valid key so it will return an none as defult
-print(monthConvertions.get("luv" , "Not a valid key")) # here we sat "Not a valid key" to be the defult
+# get is useful as it makes a defult key to the dictionary and returns it when an invalid key is entered insted of error
+print(monthConvertions.get("Feb"))
+# ex: luv is not a valid key so it will return an "none" as defult
+print(monthConvertions.get("luv"))
+# here we sat "Not a valid key" to be the defult insted of "none"
+print(monthConvertions.get("luv", "Not a valid key"))
