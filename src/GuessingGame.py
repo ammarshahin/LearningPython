@@ -8,6 +8,6 @@ while (guess != secret_word) and (no_of_guesses < max_no_guesses):
     no_of_guesses += 1
 
 if no_of_guesses == max_no_guesses:
-    print("Wrong... your guess is wrong..")
+    print("Out of guesses... your 5 guesses are wrong..")
 else:
     print("Congratulations your guess is right!!")

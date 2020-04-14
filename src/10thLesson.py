@@ -1,6 +1,7 @@
 # ************* Lesson 10 **************
-# ************* While Loop *************
+# ************* Loops *************
 
+########################## while loop #################################
 # ex:
 # while <Condition>:
 #   loop code
@@ -13,3 +14,17 @@ i = 1
 while i <= 10:
     print(i)
     i += 1
+
+
+
+########################## for Loop #################################
+# ex:
+# for <index> in <Array>:
+#   loop code
+#   loop code
+#   loop code
+#   loop code
+# Not loop code
+
+for letter in "Giraffe Academy":
+    print(letter)
