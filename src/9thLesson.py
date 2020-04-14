@@ -7,7 +7,8 @@
 # Note : No duplicate keys are allowed(unique)
 
 ##### ex: A program that converts Jan >> January , Feb >> February , etc #####
-monthConvertions =  # Dictionary Name
+# Dictionary Name = {List of keys and the associated values}
+monthConvertions =
 {
     "Jan": "January",      # Jan is the Key >> January is the value
     "Fab": "February",
