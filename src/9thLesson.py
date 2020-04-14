@@ -10,7 +10,7 @@
 # Dictionary Name = {List of keys and the associated values}
 monthConvertions = {
     "Jan": "January",      # Jan is the Key >> January is the value
-    "Fab": "February",
+    "Feb": "February",
     "Mar": "March",
 }
 
