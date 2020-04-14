@@ -19,5 +19,5 @@ monthConvertions = {
 print(monthConvertions["Jan"])
 
 # get is useful as it makes a defult value to the dictionary
-print(monthConvertions.get["Feb"]) 
-print(monthConvertions.get["luv"])
+print(monthConvertions.get("Feb")) 
+print(monthConvertions.get("luv"))
