@@ -8,8 +8,7 @@
 
 ##### ex: A program that converts Jan >> January , Feb >> February , etc #####
 # Dictionary Name = {List of keys and the associated values}
-monthConvertions =
-{
+monthConvertions = {
     "Jan": "January",      # Jan is the Key >> January is the value
     "Fab": "February",
     "Mar": "March",
