@@ -35,8 +35,13 @@ num_array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 for every_element in num_array:
     print(every_element)
 '''
-
-# this loop is looping through the Array
+'''
+# this loop will loop throughout the Array of strings
 friends = ["Chandler", "Rachel", "Monica", "Ross", "Phebe", "Joy"]
 for friend in friends:
     print("We Love you", friend)
+'''
+
+# this loop will loop throug a range of numbers
+for num in range(1:10):
+    print(num)
