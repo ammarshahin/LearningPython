@@ -25,12 +25,18 @@ while i <= 10:
 #   loop code
 # Not loop code
 '''
-# this loop is looping through the string by index
+# this loop is looping through the string
 for letter in "Giraffe Academy":
     print(letter)
 '''
-
-# this loop is looping through the string by index
+'''
+# this loop is looping through the Array
 num_array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 for every_element in num_array:
     print(every_element)
+'''
+
+# this loop is looping through the Array
+friends = ["Chandler", "Rachel", "Monica", "Ross", "Phebe", "Joy"]
+for friend in friends:
+    print("We Love you ", friend)
