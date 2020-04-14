@@ -6,4 +6,7 @@ while (guess != secret_word) and (no_of_guesses < 5):
     guess = input("Enter a new guess: ")
     no_of_guesses += 1
 
-print("Congratulations your guess is right!!")
+if no_of_guesses >= 5:
+    print("Wrong... your guess is wrong..")
+else:
+    print("Congratulations your guess is right!!")
