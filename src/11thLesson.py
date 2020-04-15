@@ -8,7 +8,7 @@ def raise_to_power(num, pow):
     result = num
     for index in range(1, pow):
         result *= num
-    return num
+    return result
 
 
 print(raise_to_power(2, 3))
