@@ -10,4 +10,4 @@ def raise_to_power(num, pow):
     return num
 
 
-print(raise_to_power(2, 2))
+print(raise_to_power(2, 3))
