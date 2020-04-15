@@ -12,7 +12,6 @@ number_grid = [  # 2D list
 print(number_grid[0][2]) # access the element
 '''
 
-for row in number_grid:
+for row in number_grid:  # row is now a list of columns
     for col in row:
         print(col)
-        
