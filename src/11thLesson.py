@@ -1,7 +1,7 @@
 # ************* Lesson 11 **************
 # ************* Exponent Function ******
 
-# Note: 2**3 == 2^3
+# Note: in python >> 2**3 == 2^3
 
 
 def raise_to_power(num, pow):
@@ -11,4 +11,4 @@ def raise_to_power(num, pow):
     return result
 
 
-print(raise_to_power(3, 2),3**3)
+print(raise_to_power(3, 2))
