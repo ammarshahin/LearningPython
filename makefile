@@ -26,4 +26,8 @@ app:
 git:                      # This rule is to automate aquick save to the VCS git 
 	@echo -------------Quick Saving...-------------
 	git add .
-	git commit -a -m "Quick Save" 
+	git commit -a -m "Quick Save"
+
+push:
+	@echo -------------PushingToGithup...-------------
+	git push origin master
