@@ -8,4 +8,11 @@ number_grid = [  # 2D list
     [0]
 ]
 
+'''
 print(number_grid[0][2]) # access the element
+'''
+
+for row in number_grid:
+    for col in row:
+        print(col)
+        
