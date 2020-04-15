@@ -5,8 +5,9 @@
 
 
 def raise_to_power(num, pow):
-    for index in range(0, pow):
-        num *= num
+    result = num
+    for index in range(1, pow):
+        result *= num
     return num
 
 
