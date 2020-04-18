@@ -2,3 +2,5 @@ Jim - Salesman - 465431121
 Tom - Eng - 4654311224545
 scar - Officeboy - 633931121
 Pam - Manger - 46513541121
+Ahmed - HR - 64551315
+Kelly - PR - 65416315
