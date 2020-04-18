@@ -13,8 +13,8 @@ if employee_file.readable():            # check if the file is readable or not
 else:
     print("Not a readable file !!!")
 
-for line in employee_list:
-    print(line)
+for employee in employee_list:
+    print(employee)
 
 employee_file.close()  # close the opened file
 
