@@ -5,4 +5,4 @@ try:
     num = int(input("Enter a number: "))
     print("the number is", num)
 except:
-    print(num, "is not a number!!")
+    print("Not a number!!")
