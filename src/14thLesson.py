@@ -10,5 +10,4 @@ if employee_file.readable():
 else:
     print("Not a readable file !!!")
 
-
 employee_file.close()  # close the opened file
