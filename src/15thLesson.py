@@ -6,6 +6,7 @@
 # employee_file is an object the stores the file contents inside it
 employee_file = open("src/AttachmentToFilesLesson.txt", "a")
 
-employee_file.write("Ahmed - HR - 64551315")
+employee_file.write("Ahmed - HR - 64551315\n")
+employee_file.write("Kelly - PR - 65416315\n")
 
 employee_file.close()
