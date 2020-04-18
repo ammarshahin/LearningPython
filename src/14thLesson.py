@@ -3,7 +3,7 @@
 # Attach : src/AttachmentTo14thLesson.txt
 
 # open a the file and (r[read], w[writ], a[append], r+[read an write])
-employee_file = open("src/AttachmentTo14thLesson.txt", "r") # employee_file is an object the stores the file inside it
+employee_file = open("src/AttachmentToFilesLesson.txt", "r") # employee_file is an object the stores the file inside it
 
 if employee_file.readable():            # check if the file is readable or not 
     #print(employee_file.read())         # read the entire file 
