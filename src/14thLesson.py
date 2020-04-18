@@ -8,7 +8,7 @@ employee_file = open("src/AttachmentTo14thLesson.txt", "r+")
 
 print(employee_file.read())
 if employee_file.readable():
-    
+    print("DFD")
 else:
     print("Not a readable file !!!")
 
