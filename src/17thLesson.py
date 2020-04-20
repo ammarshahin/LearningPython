@@ -7,6 +7,6 @@ from Student import *
 
 s1 = Student("Jim", "Eng", 3.1)
 
-print(s1)
-# print(s1.major)
-# print(s1.gpa)
+print(s1.name)
+print(s1.major)
+print(s1.gpa)
