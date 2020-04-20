@@ -2,8 +2,13 @@
 # *********** Classes & Objects **************
 
 # from Student import Student # from the module improt the class ( "*" to import all the file)
-# from the module improt the class ( "*" to import all the file)
-from Student import *
+#from Student import *         # from the module improt ( "*" to import all the file)
+
+class Student:  # define a class
+    def __init__(self, name, major, gpa):  # initialization  Function (Constructor)
+        self.name = name
+        self.major = major
+        self.gpa = gpa
 
 s1 = Student("Jim", "Eng", 3.1)
 
