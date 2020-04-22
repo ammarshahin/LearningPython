@@ -6,7 +6,7 @@
 
 ######### change The Files Name here ########
 _DEPS =                          # 
-_EXC  = List Comprehensions.py            # The Excutable File name 
+_EXC  = ListComprehensions.py            # The Excutable File name 
 #################################################################################
  
 PYC = py
