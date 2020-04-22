@@ -15,3 +15,6 @@ while i < x:
             if i+j+k < n:
                 single_coordinate = [i, j, k]
                 print(single_coordinate)
+            k += 1
+        j += 1
+    i += 1 
