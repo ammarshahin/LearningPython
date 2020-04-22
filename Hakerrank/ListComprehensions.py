@@ -1,4 +1,4 @@
-x = int(input())
+x = int(input("sdfsd"))
 y = int(input())
 z = int(input())
 n = int(input())
