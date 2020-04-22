@@ -12,7 +12,7 @@ k = 0
 while i < x:
     while j < y:
         while k < z:
-            if i+j+k < n:
+            if i+j+k <= n:
                 single_coordinate = [i, j, k]
                 print(single_coordinate)
             k += 1
