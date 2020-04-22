@@ -4,7 +4,6 @@ z = int(input())
 n = int(input())
 
 list_of_coordinates = []
-single_coordinate = []
 i = 0
 
 while i <= x:
