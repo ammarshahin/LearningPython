@@ -11,7 +11,7 @@ _EXC  = List Comprehensions.py            # The Excutable File name
  
 PYC = py
 PYFLAGS = -u
-SDIR = .\src
+SDIR = .\Hakerrank
 
 #******************************* Rules *******************************
 
