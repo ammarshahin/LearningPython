@@ -14,7 +14,9 @@ while i <= x:
         while k <= z:
             if i+j+k <= n:
                 single_coordinate = [i, j, k]
-                print(single_coordinate)
+                list_of_coordinates.append([single_coordinate])
             k += 1
         j += 1
     i += 1
+
+print(list_of_coordinates)
