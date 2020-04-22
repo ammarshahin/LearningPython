@@ -11,7 +11,7 @@ k = 0
 
 while i < x:
     while j < y:
-        while k < Z:
+        while k < z:
             if i+j+k < n:
-                sigle_coordinate = [i, j, k]
-                print(sigle_coordinate)
+                single_coordinate = [i, j, k]
+                print(single_coordinate)
