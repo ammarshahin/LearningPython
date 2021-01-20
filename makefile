@@ -17,6 +17,8 @@ SDIR = .\Hakerrank
 
 all: git printStartMsg app
 
+build:	printStartMsg app
+
 printStartMsg: 
 	@echo -------------Building...-------------
 
