@@ -1,6 +1,7 @@
-This repository  is for learning the basics of python..
-How ?
+## This repository is for learning the basics of python..
 
-https://www.youtube.com/watch?v=rfscVS0vtbw  // Basic Syntax
+### How ?
 
-https://www.youtube.com/watch?v=XGf2GcyHPhc  // Games
+[Giraffe Academy](https://www.youtube.com/watch?v=rfscVS0vtbw)
+
+[Building Games](https://www.youtube.com/watch?v=XGf2GcyHPhc)
