@@ -1,8 +1,9 @@
 # ************* Lesson 5 **************
 # ************* Lists(Arrays) **************
 
-# Note: Python index the array from the start to the end && and from end to start as well but with {-} sign
+# Note: Python index "the array from the start to the end" and "from end to start as well but with {-} sign"
 # BackEnd Indexing:
+#            0   |   1   |    2   |    3
 #           -4   |  -3   |   -2   |   -1
 friends = ["Kev", "Karen", "Ahmed", "Jim"]  # array of strings
 print(friends[1])   # karen
@@ -25,7 +26,7 @@ print(charArr[:2])
 
 # ******************** list functions *****************************
 
-# Append whole list at the end of the main one
+# Append whole list at the end of another one
 friends.extend(charArr)
 print(friends)
 
@@ -33,8 +34,8 @@ print(friends)
 friends.append("Mohammed")
 print(friends)
 
-# Insert element at any location in the main list
-friends.insert(2, "Mahmoud")
+# Insert element at any location in the main list (shifting the whole array to the right and insert the new element)
+friends.insert(2, "Mahfouz")
 print(friends)
 
 # remove element from the main list
@@ -65,7 +66,7 @@ friends.remove("Mohammed")
 friends.remove("Mohammed")
 print(friends)
 
-# sort the entire elements in the list in accending order
+# sort the entire elements in the list in ascending order
 friends.sort()
 print(friends)
 

@@ -2,7 +2,10 @@
 # ************* Working With Numbers **************
 
 # import the math library
-from math import *
+# from math import *  >> import everything from the math library
+
+from math import ceil, floor, sqrt # just import a specific classes, functions, or variables
+
 
 print(2)
 print(2.544213)

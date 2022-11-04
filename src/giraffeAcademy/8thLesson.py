@@ -8,7 +8,7 @@ if is_male:
 elif not(is_male):
     print("you aren't a male")
 else:
-    pass # 'pass' is the keyword for continue (basically don't do anything) {it's a MUST in python!!!!}
+    pass # 'pass' is the keyword for continue (basically don't do anything) {else is a MUST in python!!!!}
     
 
 '''
@@ -24,21 +24,29 @@ elif is_male or not(is_tall):
 elif not(is_male) or is_tall:
     print("you are tall but not male")
 else:
-    print("you are nither male or tall")
+    print("you are neither male or tall")
 '''
 # Conditional operators >> [== , <= , >= , != , or , not , and]
 
 
+# def max_num(num1, num2, num3):
+#     result = num1
+#     if (num2 >= num1) and (num2 >= num3):
+#         result = num2
+#     elif (num3 >= num1) and (num3 >= num2):
+#         result = num3
+#     else:
+#         pass
+#     return result
+
 def max_num(num1, num2, num3):
-    result = num1
     if (num2 >= num1) and (num2 >= num3):
-        result = num2
+        return num2
     elif (num3 >= num1) and (num3 >= num2):
-        result = num3
+        return num3
     else:
-        pass
-    return result
+        return num1
 
 
-is_max = max_num(2, 6, 0)
+is_max = max_num(6, 8, 7)
 print(is_max)

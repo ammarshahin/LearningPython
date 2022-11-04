@@ -20,7 +20,7 @@ say_hi("ammar", "25")
 say_hi("Mike", "20")
 '''
 
-# Note: Any function that doesn't have a return statement >> returns "none" as defult
+# Note: Any function that doesn't have a return statement >> returns "none" as default
 # Ex:
 
 

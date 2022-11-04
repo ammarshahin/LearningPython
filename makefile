@@ -6,18 +6,16 @@
 
 ######### change The Files Name here ########
 _DEPS =                          # 
-_EXC  = FindtheRunner-UpScore.py            # The Excutable File name 
+_EXC  = test.py            # The Excutable File name 
 #################################################################################
  
 PYC = py
 PYFLAGS = -u
-SDIR = .\Hakerrank
+SDIR = .\src\graphics
 
 #******************************* Rules *******************************
 
-all: git printStartMsg app
-
-build:	printStartMsg app
+all: printStartMsg app
 
 printStartMsg: 
 	@echo -------------Building...-------------
@@ -25,10 +23,10 @@ printStartMsg:
 app:
 	$(PYC) $(CXXFLAGS) $(SDIR).\$(_EXC)
 
-git:                      # This rule is to automate aquick save to the VCS git 
+git:   # This rule is to automate a quick save to git 
 	@echo -------------Quick Saving...-------------
 	git add .
-	git commit -a -m "Quick Save"
+	git cm "Quick Save"
 
 push:
 	@echo -------------PushingToGithup...-------------

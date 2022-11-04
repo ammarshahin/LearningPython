@@ -25,12 +25,11 @@ while i <= 10:
 #   loop code
 # Not loop code
 
-'''
-# this loop will loop through a range of numbers(not including the last element(UpTOButNotIncluding))
+
+# this loop will loop through a range of numbers(Excluding the last element(UpTOButNotIncluding))
 for num in range(1,10):
     print(num)
 
-'''
 
 '''
 # this loop is looping through the Array
@@ -47,6 +46,8 @@ for letter in "Giraffe Academy":
 
 
 # this loop will loop throughout the Array of strings
+'''
 friends = ["Chandler", "Rachel", "Monica", "Ross", "Phebe", "Joy"]
 for friend in friends:
     print("We Love you", friend)
+'''

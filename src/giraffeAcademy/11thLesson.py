@@ -11,4 +11,5 @@ def raise_to_power(num, pow):
     return result
 
 
-print(raise_to_power(3, 2))
+print(raise_to_power(3, 5))
+print(pow(3, 5)) # build in func

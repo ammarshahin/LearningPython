@@ -3,10 +3,10 @@
 # Note: is used run a test on our program to test it against any run time error
 # we can specify the type of error every except handle
 try:
-    num1 = 10/0
     num2 = int(input("Enter a number: "))
-    print("the number is", num)
-except ZeroDivisionError as err:  # here we saved the error mesage in a variable err
+    num1 = 10 / num2
+    print("the number is", num1)
+except ZeroDivisionError as err:  # here we saved the error message in a variable err
     print(err)
 except ValueError:
     print("Not a number!!")
