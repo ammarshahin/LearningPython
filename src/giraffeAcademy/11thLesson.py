@@ -12,4 +12,4 @@ def raise_to_power(num, pow):
 
 
 print(raise_to_power(3, 5))
-print(pow(3, 5)) # build in func
+print(pow(3, 5))  # build in func

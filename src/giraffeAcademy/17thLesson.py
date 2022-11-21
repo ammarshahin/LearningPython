@@ -1,20 +1,20 @@
+
 # ************* Lesson 17  ****************
 # *********** Classes & Objects **************
 
 # We can import classes form other modules:
-# from Student import Student   # from the module improt the class ( "*" to import all the file)
-# from Student import *         # from the module improt ( "*" to import all the file)
 
+# from the module "Student" import the class
+# from student import Student
 
-# Or define in the same File:
-class Student:  # define a class
-    def __init__(self, name, major, gpa):  # initialization  Function (Constructor)
-        self.name = name
-        self.major = major
-        self.gpa = gpa
+# from the module "student" import "*"  all
+from student import *
 
+s1 = Student("Jim", "Eng", 3.7)  # creating an object
 
-s1 = Student("Jim", "Eng", 3.1)  # creating an object
 print(s1.name)
 print(s1.major)
 print(s1.gpa)
+
+if s1.on_honor_roll() == True:
+    print("On honor roll!!")
