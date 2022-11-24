@@ -5,8 +5,7 @@
 ############################### Variables #######################################
 
 ######### change The Files Name here ########
-_DEPS =                          # 
-_EXC  = test.py            # The Excutable File name 
+_EXC  = pong.py            # The Excutable File name 
 #################################################################################
  
 PYC = py
@@ -18,10 +17,10 @@ SDIR = .\src\graphics
 all: printStartMsg app
 
 printStartMsg: 
-	@echo -------------Building...-------------
+	@echo -------------Running...-------------
 
 app:
-	$(PYC) $(CXXFLAGS) $(SDIR).\$(_EXC)
+	$(PYC) $(PYFLAGS) $(SDIR).\$(_EXC)
 
 git:   # This rule is to automate a quick save to git 
 	@echo -------------Quick Saving...-------------
